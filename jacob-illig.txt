@@ -1,0 +1,53 @@
+Link to finihsed codepen: https://codepen.io/jacobillig/pen/OJmwarg?editors=1100
+
+   1. What is Semantic HTML? Using html markup to reinforce semantics or meanin to webpages and applications 
+    2. What is HTML used for? The structure or base parts of a websites content
+    3. What is an attribute and where do we put it? They provide additional information about html elements. We place them inside their respective tags.
+    4. What is the h1 tag used for? How many times should I use it on a page? it is for the main purpose or title of the page. Only one h1 tag should be used in a page.
+    5. Name two tags that have required attributes - img and a
+    6. What do we put in the head of our HTML document? <title><style><base><link><meta><script><noscript>
+    7. What is an id? specifies a unique id for an html element
+    8. What elements can I add an id to? html elements
+    9. How many times can I use the same id on a page?  one time
+    10. What is a class? used to specify a class for an html element
+    11. What elements can I add a class to? html elements
+    12. How many times can I use the same class on a page? as many times as you want as long as you dont add the same class name to a different type of tag.
+    13. How do I get my link to open in a new tab? <a href="website" target="_blank">website</a>
+    14. What is the alt attribute in the image tag used for? gives specific alternate text for an image, if the image cannot be displayed.
+    15. How do I reference an id? #'idname'{}
+    16. What is the difference between a section and a div? div and section are a section in a document. section marksup a section - div marks up a generic block with no associated semantics 
+    17. What is CSS used for? css determines how our html will be displayed
+    18. How to we select an element? Example - every h2 on the page h2{ }
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one class is the general selector to change any code labeled with that class such as all or specific sections of the page. Id would be used to manipulate on type of item specifically. like make the #first-name {background-color: yellow;}
+    20. How do we select classes in CSS? .'classname'
+    21. How do we select a p element with a single class of “human””? p .human{}
+    22. What is a parent child selector? When would this be useful? when you choose a specific parent with a specific child to make a change to. You are able specify changes to be made only if they have a certain parent. div > p {changes you want}
+    23. How do you select all links within a div with the class of sidebar? .sidebar{}
+    24. What is a pseudo selector? A selector that specifies a special state of the selected element
+    25. What do we use the change the spacing between lines? line-height property
+    26. What do we use to change the spacing between letters? letter-spacing property
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform
+    28. How do I add a 1px border around my div that is dotted and black? div{border:1px dotted black;}
+    29. How do I select everything on the page? *
+    30. How do I write a comment in CSS? /* */
+    31. How do I find out what file I am in, when I am using the command line? pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder? ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? rm - it will completely remove the information and if we remove the wrong item it could cause us alot fo work.
+    34. Why should I use version control? It makes work between multiple people and group much more convenient/possible.
+    35. How often should I commit to github? anytime a meaningful change has occurred.
+    36. What is the command we would use to push our repo up to github? git push -u origin firstname-lastname
+    37. Walk me through Lambda's git flow. Step one: Create own fork Two:make sure name is at the fron of the repo name. Three:get ready to clone repo copy the clone URL. Four: enter the folder you want the clone to go to in gitbash using cd. Five:git clone <link> 
+    Six:cd into the newly created repo using cd <repo-name-here> Seven:make your own work space from clone git checkout -b first-lastname. Eight: a)after making changes use git add. to get ready for commit b)git commit -m "what we changed" Ten:Push content to git git push -u origin "branch-name"
+    Final step is going to github and ensuring that you are pulling your fork and not the original branch compare yours against the master then create the pull request.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element? Block always start on a new line, has a top and bottom and will stretch as far left and right as is available. inline does not start on a new line and only takes the spce that is necessary.
+    2. What happens when an element is positioned absolutely? it is positioned relative to the nearest positioned ancestor. if there is no ancestor then it uses the document body and moves along with the page scrolling.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? I would use a span with a class. span can be used inline making it only use what it needs to and I can call the class in css to make the width what I would like.
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default. A)<h1>--<h6>/<p>/<li> B)<span><button> C)display: inline-block;
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? the box model is the the content is the the middel of the box the padding is the filler we put around it to keep it from bouncing around and the border is the edge of the box. We use flex box to give us more options and to make it possible to flex our layouts in a container so that they can automatically arrange themselves based on screen size.
+
+
+
+   --> 
